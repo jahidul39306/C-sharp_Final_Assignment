@@ -1,0 +1,11 @@
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\bin\Debug\Search Book.exe.config
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\bin\Debug\Search Book.exe
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\bin\Debug\Search Book.pdb
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\obj\Debug\Search Book.csprojAssemblyReference.cache
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\obj\Debug\Search_Book.Properties.Resources.resources
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\obj\Debug\Search_Book.Views.AllBooks.resources
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\obj\Debug\Search Book.csproj.GenerateResource.cache
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\obj\Debug\Search Book.csproj.CoreCompileInputs.cache
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\obj\Debug\Search Book.exe
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\obj\Debug\Search Book.pdb
+E:\Semesters\Second Year\6th Semester(COVID-19)\C#\Final Term\Final Term Assignment\Search Book\obj\Debug\Search_Book.Views.BookDetails.resources

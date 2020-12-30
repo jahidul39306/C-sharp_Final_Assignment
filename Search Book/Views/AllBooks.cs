@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Search_Book.Controllers;
+using Search_Book.Models;
 
 namespace Search_Book.Views
 {
@@ -32,12 +33,13 @@ namespace Search_Book.Views
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            int Id = Int32.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
-            string Name = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            string Author = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-            string Edition = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            Book b = new Book();
+            b.Id = Int32.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            b.Name = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            b.Author = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            b.Edition = dataGridView1.CurrentRow.Cells[3].Value.ToString();
             
-            BookDetails bd = new BookDetails(Id, Name, Author, Edition);
+            BookDetails bd = new BookDetails(b);
             bd.Show();
             
         }

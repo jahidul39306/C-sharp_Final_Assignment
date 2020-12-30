@@ -7,18 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Search_Book.Models;
 
 namespace Search_Book.Views
 {
     public partial class BookDetails : Form
     {
-        public BookDetails(int Id, string Name, string Author, string Edition)
+        public BookDetails(Book b)
         {
             InitializeComponent();
-            textBoxBookName.Text = Name;
-            textBoxBookId.Text = Id.ToString();
-            textBoxAuthorName.Text = Author;
-            textBoxEdition.Text = Edition;        }
+            textBoxBookName.Text = b.Name;
+            textBoxBookId.Text = b.Id.ToString();
+            textBoxAuthorName.Text = b.Author;
+            textBoxEdition.Text = b.Edition;
+        }
         
         private void BookDetails_Load(object sender, EventArgs e)
         {

@@ -87,7 +87,7 @@ namespace Search_Book.Views
             this.textBoxBookName.Name = "textBoxBookName";
             this.textBoxBookName.ReadOnly = true;
             this.textBoxBookName.Size = new System.Drawing.Size(242, 29);
-            this.textBoxBookName.TabIndex = 8;
+            this.textBoxBookName.TabIndex = 15;
             this.textBoxBookName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBoxEdition
@@ -97,7 +97,7 @@ namespace Search_Book.Views
             this.textBoxEdition.Name = "textBoxEdition";
             this.textBoxEdition.ReadOnly = true;
             this.textBoxEdition.Size = new System.Drawing.Size(242, 29);
-            this.textBoxEdition.TabIndex = 9;
+            this.textBoxEdition.TabIndex = 15;
             // 
             // textBoxBookId
             // 
@@ -106,7 +106,7 @@ namespace Search_Book.Views
             this.textBoxBookId.Name = "textBoxBookId";
             this.textBoxBookId.ReadOnly = true;
             this.textBoxBookId.Size = new System.Drawing.Size(242, 29);
-            this.textBoxBookId.TabIndex = 10;
+            this.textBoxBookId.TabIndex = 15;
             this.textBoxBookId.TextChanged += new System.EventHandler(this.textBoxBookId_TextChanged);
             // 
             // textBoxAuthorName
@@ -116,7 +116,7 @@ namespace Search_Book.Views
             this.textBoxAuthorName.Name = "textBoxAuthorName";
             this.textBoxAuthorName.ReadOnly = true;
             this.textBoxAuthorName.Size = new System.Drawing.Size(242, 29);
-            this.textBoxAuthorName.TabIndex = 11;
+            this.textBoxAuthorName.TabIndex = 20;
             // 
             // BookDetails
             // 
